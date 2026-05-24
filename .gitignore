@@ -1,0 +1,13 @@
+# Track only README.md (and any nested READMEs) among markdown files
+*.md
+!README.md
+!**/README.md
+
+# OS / editor cruft
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local Claude state
+.claude/
