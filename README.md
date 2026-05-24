@@ -25,6 +25,12 @@ Large Language Models (LLMs) are increasingly used for zero-shot annotation and 
 * **Definition-Specific Familiarity (DSF).** We introduce DSF as a measure of alignment between a model's internal concept and a task definition. After controlling for dataset-level confounds, DSF shows a positive partial correlation of *r* = +0.41 with performance.
 * **Memorization metrics do not predict performance.** ROUGE-L, BERTScore, and embedding cosine similarity all fail to show a positive association with task performance, underscoring that definition-level alignment matters more than text-level memorization.
 
+## Repo Structure
+
+* [`rq1_familiarity/`](rq1_familiarity) — Definition-Specific Familiarity (DSF) metric, with a minimal reference implementation in [`dsf.py`](rq1_familiarity/dsf.py). See its [README](rq1_familiarity/README.md).
+* [`rq2_decision_stickiness/`](rq2_decision_stickiness) — Rescue rate and the resistance of high-confidence errors to correction. See its [README](rq2_decision_stickiness/README.md).
+* [`rq3_misaligned_definitions/`](rq3_misaligned_definitions) — Model compliance with contradictory definitions and the resulting confidence-calibration failure. See its [README](rq3_misaligned_definitions/README.md).
+
 ## Citation
 
 [On the Limits of LLM Adaptability: Impact of Model-Internalized Priors on Annotation Task Performance](https://openreview.net/forum?id=oTv2bKG5Qg) <br>
@@ -43,6 +49,10 @@ California Institute of Technology <br>
   url       = {https://openreview.net/forum?id=oTv2bKG5Qg}
 }
 ```
+
+## Acknowledgments
+
+This work is supported by the Caltech Linde Center for Science, Society, and Public Policy (LCSSP). R. Michael Alvarez is Flintridge Foundation Professor of Political and Computational Social Science at Caltech.
 
 ## Contact
 

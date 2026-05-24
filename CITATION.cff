@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the paper below."
+title: "On the Limits of LLM Adaptability: Impact of Model-Internalized Priors on Annotation Task Performance"
+authors:
+  - family-names: Casanova
+    given-names: Etienne
+    affiliation: California Institute of Technology
+  - family-names: Kocielnik
+    given-names: Rafal
+    affiliation: California Institute of Technology
+  - family-names: Alvarez
+    given-names: R. Michael
+    affiliation: California Institute of Technology
+url: "https://github.com/etmaca5/Impact-of-LLM-Model-Internalized-Priors-on-Annotation-Task-Performance"
+preferred-citation:
+  type: conference-paper
+  title: "On the Limits of LLM Adaptability: Impact of Model-Internalized Priors on Annotation Task Performance"
+  authors:
+    - family-names: Casanova
+      given-names: Etienne
+      affiliation: California Institute of Technology
+    - family-names: Kocielnik
+      given-names: Rafal
+      affiliation: California Institute of Technology
+    - family-names: Alvarez
+      given-names: R. Michael
+      affiliation: California Institute of Technology
+  collection-title: "Proceedings of the 43rd International Conference on Machine Learning (ICML)"
+  year: 2026
+  notes: "Spotlight, Oral Presentation"
+  url: "https://openreview.net/forum?id=oTv2bKG5Qg"
