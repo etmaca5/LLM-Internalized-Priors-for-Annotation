@@ -16,4 +16,6 @@ These results suggest prompting primarily *stabilizes* predictions the model alr
 
 ## What's in this directory
 
-A minimal reference implementation for computing rescue rate and reproducing the confidence-bucketed analysis is planned for a future release. For now this directory describes the metric and points to the paper for the full methodology.
+This directory describes the metric and points to the paper for the full methodology. The exact prompt templates used in the experiment — the five single-turn conditions (zero-shot, aligned definition, few-shot, few-shot + aligned definition) and the three-turn rescue sequence — are collected in the repo-level [`prompts.py`](../prompts.py).
+
+A reference implementation for computing rescue rate and reproducing the confidence-bucketed analysis is planned for a future release.

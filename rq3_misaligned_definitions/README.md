@@ -8,4 +8,6 @@ Practical implication for annotation pipelines: you cannot rely on confidence sc
 
 ## What's in this directory
 
-A minimal reference implementation for the misalignment protocol (definition perturbation + paired-condition evaluation) is planned for a future release. For now this directory describes the experiment and points to the paper for the full methodology.
+This directory describes the experiment and points to the paper for the full methodology. The prompt template used for both the aligned and misaligned conditions is `ALIGNED_DEFINITION` / `MISALIGNED_DEFINITION` in the repo-level [`prompts.py`](../prompts.py) — the two share the same template; only the `{definition}` string differs.
+
+A reference implementation for the misalignment protocol (definition perturbation + paired-condition evaluation) is planned for a future release.

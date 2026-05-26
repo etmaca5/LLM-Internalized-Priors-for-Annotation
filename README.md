@@ -27,6 +27,7 @@ Large Language Models (LLMs) are increasingly used for zero-shot annotation and 
 
 ## Repo Structure
 
+* [`prompts.py`](prompts.py) — Every prompt template from the paper as a Python constant: the five classification conditions (zero-shot, aligned definition, misaligned definition, few-shot, few-shot + aligned definition), the confidence elicitation suffix, the text-familiarity continuation prompt, and the three-turn rescue prompts.
 * [`rq1_familiarity/`](rq1_familiarity) — Definition-Specific Familiarity (DSF) metric, with a minimal reference implementation in [`dsf.py`](rq1_familiarity/dsf.py). See its [README](rq1_familiarity/README.md).
 * [`rq2_decision_stickiness/`](rq2_decision_stickiness) — Rescue rate and the resistance of high-confidence errors to correction. See its [README](rq2_decision_stickiness/README.md).
 * [`rq3_misaligned_definitions/`](rq3_misaligned_definitions) — Model compliance with contradictory definitions and the resulting confidence-calibration failure. See its [README](rq3_misaligned_definitions/README.md).
