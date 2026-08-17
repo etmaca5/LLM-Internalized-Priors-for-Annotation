@@ -4,7 +4,7 @@
 
 **Headline findings.**
 
-* **Overall rescue rate is 36.4%** — nearly two-thirds of zero-shot errors resist correction by any single prompting strategy we tested.
+* **Overall rescue rate is 34.8%** — nearly two-thirds of zero-shot errors resist correction by any single prompting strategy we tested.
 * **High-confidence errors are the most resistant.** The more confident the initial wrong prediction, the less likely additional prompting is to fix it.
 * **Iterating doesn't help much.** A three-turn rescue sequence (few-shot → aligned definition → explicit reconsideration) lifts rescue from 7.5% at Turn 1 to only 18.7% at Turn 3, and high-confidence rescue to just 8.5%.
 
